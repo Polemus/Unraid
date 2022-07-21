@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>RabbitMQ</Name>
+  <Repository>rabbitmq:management</Repository>
+  <Registry>https://hub.docker.com/_/rabbitmq</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/126248-rabbitmq-support-thread/</Support>
+  <Project>https://github.com/docker-library/rabbitmq</Project>
+  <Overview>RabbitMQ is open source message broker software (sometimes called message-oriented middleware) that implements the Advanced Message Queuing Protocol (AMQP). The RabbitMQ server is written in the Erlang programming language and is built on the Open Telecom Platform framework for clustering and failover. Client libraries to interface with the broker are available for all major programming languages.&#xD;
+&#xD;
+wikipedia.org/wiki/RabbitMQ&#xD;
+&#xD;
+Default username and password is guest / guest</Overview>
+  <Category>Network:Messenger</Category>
+  <WebUI>http://[IP]:[PORT:15672]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/Cellfind/RabbitMQ-Unraid/blob/main/png-transparent-rabbitmq-hd-logo.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1658341419</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Mamangement Web Port" Target="15672" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">15672</Config>
+  <Config Name="Hostname" Target="hostname" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">my-rabbit</Config>
+  <Config Name="Instance Name" Target="name" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">some-rabbit</Config>
+  <Config Name="Image" Target="rabbitmq" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">3-management</Config>
+</Container>
