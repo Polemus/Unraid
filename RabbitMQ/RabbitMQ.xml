@@ -14,6 +14,9 @@
 wikipedia.org/wiki/RabbitMQ&#xD;
 &#xD;
 Default username and password is guest / guest</Overview>
+  <Screenshot>https://github.com/Polemus/Unraid/blob/main/RabbitMQ/Screenshots/3.png?raw=true</Screenshot>
+  <Screenshot>https://github.com/Polemus/Unraid/blob/main/RabbitMQ/Screenshots/1.png?raw=true</Screenshot>
+  <Screenshot>https://github.com/Polemus/Unraid/blob/main/RabbitMQ/Screenshots/2.png?raw=true</Screenshot>
   <Category>Network:Messenger</Category>
   <WebUI>http://[IP]:[PORT:15672]</WebUI>
   <TemplateURL/>
