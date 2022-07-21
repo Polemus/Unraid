@@ -17,7 +17,7 @@ Default username and password is guest / guest</Overview>
   <Category>Network:Messenger</Category>
   <WebUI>http://[IP]:[PORT:15672]</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/Cellfind/RabbitMQ-Unraid/blob/main/png-transparent-rabbitmq-hd-logo.png?raw=true</Icon>
+  <Icon>https://github.com/Polemus/Unraid/blob/main/RabbitMQ/Icon/png-transparent-rabbitmq-hd-logo.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
